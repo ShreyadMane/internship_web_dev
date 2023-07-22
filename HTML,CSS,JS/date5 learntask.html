@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>@media progarm for practic</title>
+    <style>
+        header{
+            background-color: darkorchid;
+            text-align: center;
+            padding:50px;
+            font-size: 50px;
+        }
+        section{
+            border:1px solid;
+            display: flex;
+            flex-grow: 1;
+
+        }
+        #parent{
+          margin: 1px;
+         flex-grow: 1;  
+         padding: 10px;
+            
+        }
+        @media  only screen and  (min-width: 601px)and(max-width:800px)  {
+            div>div{
+                min-width: 45%;
+            }
+        }
+        div>div{
+            height: 500px;
+            border:1px solid;
+         width: 100%;
+           margin: 1px;
+           
+        }
+        @media  only screen and  (max-width: 600px){
+        #parent{
+            flex-direction: column;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <header>shreya shop</header>
+    <section>
+        <div id="parent">
+        <div></div>
+        <div></div>
+        </div>
+    </section>
+</body>
+</html>

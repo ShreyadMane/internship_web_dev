@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+<head>
+   <title>ASSIGNMENT NO 11</title>
+ <style>
+     header{
+         text-align: center;
+         background-color: darkmagenta;
+         padding: 40px;
+         font-size: 40px;
+     }
+     section{
+         display: flex;
+     }
+     section>div,div>div{
+         border: 1px solid ;
+     }
+     #sidebar{
+         height: 500px;
+         flex-grow: 1;
+     }
+         #items{
+         height: 500px;
+         flex-grow: 5;
+     }
+     
+     #sidebar>a{
+      display: block;
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      border-bottom: 1px solid red;
+     }
+     
+     .product{
+         height: 200px;
+         max-width:300px;
+         flex-grow: 1;
+     }
+   #laptop,#mobile{
+         display: flex;
+         height: 250px;
+         justify-content: space-around;
+         align-items: center;
+     }
+     
+ </style>
+</head>
+<body>
+    <header>JAYRAM ELECTRONICS</header>
+    <section>
+        <div id="sidebar">
+            <a href="#">tv</a>
+            <a href="#">tab</a>
+            <a href="#">laptop</a>
+            <a href="#">Wshing machine</a>
+            <a href="#">computer</a>
+            
+            
+        </div>
+        <div id="items">
+            <div id="laptop">
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
+            </div>
+            <div id="mobile"
+            ><div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div></div>
+        </div>
+    </section>
+</body>
+</html>
+  

@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <style>
+          section{
+              height: 100%;
+              padding:80px;
+              background-color:blueviolet;
+          }
+          #button{
+              width:90px;
+              height:30px;
+              background-color:blue;
+              color:white;
+          }
+          nav{
+                width: 100%;
+                height: 8vh;
+                background:rgba(0,0,0,0.2);
+                font-weight: bold;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            nav .menu{
+                width: 40%;
+                display: flex;
+                justify-content: space-around;
+            }
+            nav .logo{
+                width: 50%;
+                text-align: center;
+                display:flex;
+                justify-content:space-around;
+            }
+            nav .logo a{
+                font-size:20px;
+                text-decoration: none;
+                color:black;
+                font-weight:bold;
+            }
+            nav .menu a{
+                width: 20%;
+                font-size:18px;
+                text-decoration: none;
+                font-weight: bold;
+                color:black;
+            }
+            
+        </style>
+    </head>
+    <body>
+    <header class="container">
+                <nav>
+                <div class="logo">
+                <a href="" class="h1">Crime Report</a>
+                <a href="" class="h1">Official Login</a>
+                <a href="" class="h1">HQ Login</a>
+                <a href="" class="h1">HQ Home</a>
+                </div>
+                <div class="menu">
+                    <a href="" class="UserLogin">View  Complaints</a>
+                    <a href="" class="OfficialLogin">Complain Details </a>
+                    <a href="" class="Logout">Logout</a>
+                </div>
+                </nav>
+           </header>
+           <center>
+           <section>
+               <Label>Complaints ID</Label>
+           <input type="text"  ><br><br><br>
+           <input type="button" value="Serach" id="button">
+        
+        </section>
+    </body>
+</html>

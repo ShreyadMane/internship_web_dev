@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Visit</title>
+    <style>
+        /*---------------visit-------------*/
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.5 ),#05cde7),url(../image/promo.jfif);
+    background-size: 280%;
+    background-position: -400px 0px;
+   
+}
+div.main{
+    width:500px;
+    height: 600px;
+    margin:50px auto 50px auto;
+    padding: 10px;
+    
+}
+h2{
+  text-align: center;
+
+
+}
+div.register{
+     font-size: 20px;
+     border-radius: 10px;
+   
+}
+form.register{
+    margin: 40px;
+}
+label{
+   font-size: 18px;
+   font-style: italic;
+}
+input #name{
+    width:300px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color:#fff ;
+    box-shadow: inset 1px 1px 5px rgba(165, 201, 221, 0.3);
+}
+.social-links{
+  position: relative;
+  left:500px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+
+.social-img img{
+    width:70px;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: 1px solid;
+
+}
+#testimonial #team {
+    width:100%;
+    padding:70px 0;
+
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin:auto;
+    font-size: 20px;
+    color:#009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+
+}
+.title-text p::after{
+    content:'';
+    width:50px;
+    height:35px;
+    background:linear-gradient(#019587,#fff);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    transform:rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    
+}
+.title-text h1{
+    font-size: 50px;
+}
+#tesimonial #team{
+    width:100%;
+    padding:70px 0;
+
+}
+.tesimonial-row {
+   width:80%;
+   margin:auto;
+   display:flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+.tesimonial-col  {
+    flex-basis: 28%;
+    padding:10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+}
+.tesimonial-col {
+    font-size: 15px;
+}
+.user  {
+    display: flex;
+    align-items: center;
+    margin:20px;
+    
+}
+ .user img {
+    width:70px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.user-info small {
+color:rgb(247, 11, 11);
+}
+.tesimonial-col :hover{
+transform:translateY(7px);
+}
+@media screen and (max-width:770px){
+    .tesimonial-col{
+        flex-basis: 100%;
+    }
+}
+.footer {
+    height: 80px;
+        text-align: center;
+        font-size: 0.9rem;
+        background:rgba(17, 219, 207,0.8);
+      }
+      .footer .btn-back{
+        background: #fff;
+        color: #00d9ff;
+      }
+      .footer .text{
+        color: #000;
+      }
+      
+    </style>
+</head>
+<body>
+   <!------visit-------->
+<section id="contact">
+    <div class="title-text">
+      <p>contact</p>
+    <H1>visit us today</H1>
+  </div>
+  <div class="main">
+    <div class="register"></div>
+    <h2>Register Here</h2>
+    <form id="register" method="post">
+      <label>First Name :</label>
+      <br>
+      <input type="text" name="fname" id="name" placeholder="Enter Your First Name">
+      <br></br>
+      <label>Last Name :</label>
+      <br>
+      <input type="text" name="lname" id="name" placeholder="Enter Your Last Name">
+      <br></br>
+      <label>Your Age   :</label>
+      <br>
+      <input type="number" name="age" id="name" placeholder="How old are you?">
+      <br></br>
+      <lable>Email :</lable>
+      <input type="email" name="email" id="name" placeholder="Enter Your Valid Email">
+      <br></br>
+      <label>Gender :</label>
+              <input type="radio" name="gender"><lable>MALE</lable>
+              <input type="radio" name="gender"><lable>FEMALE</lable>
+              <input type="radio" name="gender"><lable>OTHER</lable>
+              <br></br>
+              
+  
+     <lable>KNOWN LANGUAGES</lable>
+              <input type="checkbox" ><lable>Mrathi</lable>
+              <input type="checkbox" ><lable>Hindi</lable>
+              <input type="checkbox" ><lable>English</lable>
+              
+              <br></br>
+              <input type= "reset" >
+              <input type="submit">
+    </form>
+  </div>
+  </section>
+  <!-- Footer-->
+  <footer class="footer py-4 mt-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-left"></div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                <a class="btn btn-back btn-social mx-2" href="#!">
+                  <i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-back btn-social mx-2" href="#!">
+                    <i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-back btn-social mx-2" href="#!">
+                      <i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-lg-4 text-lg-right">
+              <a class="mr-3 text" href="#!">Privacy Policy</a>
+              <a href="#!"class="text">Terms of Use</a></div>
+        </div>
+    </div>
+</footer>
+
+  </div> 
+</body>
+</html>

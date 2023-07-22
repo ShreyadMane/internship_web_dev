@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Testomonial</title>
+    <style>
+        /*---------------testomonial----------------*/
+#testimonial #team {
+    width:100%;
+    padding:70px 0;
+
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin:auto;
+    font-size: 20px;
+    color:#009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+
+}
+.title-text p::after{
+    content:'';
+    width:50px;
+    height:35px;
+    background:linear-gradient(#019587,#fff);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    transform:rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    
+}
+.title-text h1{
+    font-size: 50px;
+}
+#tesimonial #team{
+    width:100%;
+    padding:70px 0;
+
+}
+.tesimonial-row {
+   width:80%;
+   margin:auto;
+   display:flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+.tesimonial-col  {
+    flex-basis: 28%;
+    padding:10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+}
+.tesimonial-col {
+    font-size: 15px;
+}
+.user  {
+    display: flex;
+    align-items: center;
+    margin:20px;
+    
+}
+ .user img {
+    width:70px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.user-info small {
+color:rgb(247, 11, 11);
+}
+.tesimonial-col :hover{
+transform:translateY(7px);
+}
+@media screen and (max-width:770px){
+    .tesimonial-col{
+        flex-basis: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+  <!---------testimonial--------------------->
+  <section id="testimonial">
+    <div class="title-text">
+      <p>TESTIMONIAL</p>
+    <H1>What Client Says</H1>
+</div>
+<div class="tesimonial-row" >
+<div class="tesimonial-col">
+  <div class="user">
+    
+    <div class="user-info">
+      <h4>shreya mane</h4>
+      <small>@sdmane</small>
+    </div>
+  </div>
+  <p>it is very amazing concept to develope skills of womens
+      i like it so much and i was tried it last 5 years and i got big advantage .
+    Thank You Selp-help-Group.to give a chance to stand up my own!!</p>
+</div>
+<div class="tesimonial-col" >
+  <div class="user">
+    
+    <div class="user-info">
+      <h4>vidhya patil</h4>
+      <small>@vidp</small>
+      </div>
+    </div>
+  <p>hello ..before i dont like shg but when i started to work on shg then i understand its importance and i 
+    also got knowladge and now my all family members are family of self-help-group. Thank you!! SHG.
+  </p>
+</div>
+<div  class="tesimonial-col">
+  <div class="user">
+    
+    <div class="user-info">
+      <h4>sanika patil</h4>
+      <small>@sp</small>
+    </div>
+    </div>
+  <p> it is very nice platform to develop womens skills so i like it very much </p>
+</div>
+</div>
+</section>  
+</body>
+</html>

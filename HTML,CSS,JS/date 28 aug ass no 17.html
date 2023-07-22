@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>assignment no 17</title>
+    <style>
+       div{
+           height: 100vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           
+
+       }
+      #demo{
+
+           height: 100px;
+           width:500px;
+           background-color: aqua;
+           border: 1px solid;
+           text-align: center;
+           font-size: 60px;
+           display:block;
+           margin: 20px;
+
+       }
+       #demo1{
+
+height: 100px;
+width:500px;
+background-color: aqua;
+border: 1px solid;
+text-align: center;
+font-size: 60px;
+display:block;
+margin: 20px;
+
+}
+#demo2{
+
+height: 100px;
+width:500px;
+background-color: aqua;
+border: 1px solid;
+text-align: center;
+font-size: 60px;
+display:block;
+margin: 20px;
+
+}
+button{ 
+    width:50%;
+            margin:auto;
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            font-size: 40px;
+        }
+  </style>
+</head>
+<body>
+  <!-- <button onclick="currentTime()">GET CURRENT TIME</button>-->
+   <button onclick="stop()">END INTERVAL</button>
+   
+    <div>
+<div id="demo"></div>
+<div id="demo1"></div>
+<div id="demo2"></div>
+
+
+    </div>
+    <script>
+        setTimeout(hii,6000)
+
+        function hii(){
+            alert('hii');
+        }
+
+       let time= setInterval(currentTime,1000);
+       function currentTime(){
+       let i=document.querySelector('h1');
+
+
+
+let datetime=new Date();
+
+let hours=datetime.getHours();
+
+let minutes=datetime.getMinutes();
+
+let seconds=datetime.getSeconds();
+
+document.getElementById('demo').innerHTML=hours;
+document.getElementById('demo1').innerHTML=minutes;
+document.getElementById('demo2').innerHTML=seconds;
+        }
+        function stop(){
+            clearInterval(time);
+        }
+        </script>
+</body>

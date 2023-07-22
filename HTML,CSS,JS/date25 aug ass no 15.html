@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>ASSIGNMENT NO 15</title>
+
+</head>
+<body>
+    <P>DOM(Document object model)</P>
+    <h1 ID="head1" class="headings">HEADING 1</h1>
+    <h1 ID="head 2" class="headings">HEADING 2</h1>
+    <h1 ID="head 3" class="headings">HEADING 3</h1>
+    <h1 ID="head 4" class="headings">HEADING 4</h1>
+    <h1 ID="head 5" class="headings">HEADING 5</h1>
+    <h1 ID="head 6" class="headings">HEADING 6</h1>
+    <div></div>
+    <script>
+        /* javascript selectors
+        1]document.getElementByTagNmame();
+        2]document.getElementByClassName();
+        3]document.getElementById();
+        4]document.querySelectorAll();
+        5]document.querySelector();
+         */
+
+         let i=document.getElementsByTagName("h1")
+         console.log(i);
+
+          let j=document.getElementById("head 3")
+          console.log(j);
+
+           let k=document.getElementsByClassName("headings")
+           console.log(k);
+            
+           let l=document.querySelector("#head1")
+           console.log(l);
+
+           let m=document.querySelectorAll(".headings")
+           console.log(m);
+           
+           let n=document.querySelector(".headings")
+           console.log(n);
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Team</title>
+    <style>
+        /*..............team...............*/
+.team-row {
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+ }
+ .team-col  {
+     flex-basis: 28%;
+     padding:10px;
+     margin-bottom: 30px;
+     border-radius: 5px;
+     box-shadow: 0 10px 20px 3px #00968814;
+     cursor: pointer;
+ }
+ .team-col {
+     font-size: 15px;
+ }
+.member {
+    display: flex;
+    align-items: center;
+    margin:20px;
+    
+}
+.member img {
+    width:120px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+/*---------------testomonial----------------*/
+#testimonial #team {
+    width:100%;
+    padding:70px 0;
+
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin:auto;
+    font-size: 20px;
+    color:#009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+
+}
+.title-text p::after{
+    content:'';
+    width:50px;
+    height:35px;
+    background:linear-gradient(#019587,#fff);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    transform:rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    
+}
+.title-text h1{
+    font-size: 50px;
+}
+#tesimonial #team{
+    width:100%;
+    padding:70px 0;
+
+}
+.tesimonial-row {
+   width:80%;
+   margin:auto;
+   display:flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+.tesimonial-col  {
+    flex-basis: 28%;
+    padding:10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+}
+.tesimonial-col {
+    font-size: 15px;
+}
+.user  {
+    display: flex;
+    align-items: center;
+    margin:20px;
+    
+}
+ .user img {
+    width:70px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.user-info small {
+color:rgb(247, 11, 11);
+}
+.tesimonial-col :hover{
+transform:translateY(7px);
+}
+@media screen and (max-width:770px){
+    .tesimonial-col{
+        flex-basis: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+  <!------------------team members---------->
+<section id="team">
+    <div class="title-text">
+      <p>TEAM</p>
+    <H1>Our Team Members</H1>
+  </div>
+  <div class="team-row" >
+  <div class="team-col">
+  <div class="member">
+    <img src="../image/team member 1.jfif">
+    <div class="user-info">
+    <small>@sdmane</small>
+    </div>
+  </div>
+  <h3>shobha mane</h3>
+  <h4>CRP Gorambe</h4>
+  </div>
+  <div class="team-col" >
+  <div class="member">
+    <img src="../image/team member 2.jfif">
+    <div class="user-info">
+      <small>@KSUtar</small>
+      </div>
+    </div>
+    <h3>kashinath sutar</h3>
+    <h4>C.C.Sidhnerli Center</h4>
+  </div>
+  <div  class="team-col">
+  <div class="member">
+    <img src="../image/team member 3.jfif">
+    <div class="user-info">
+     <small>@PANARE</small>
+    </div>
+    </div>
+    <h3>Mr.Panare</h3>
+    <H4>Head Of Department</H4>
+  </div>
+  </div>
+  </section>
+      
+</body>
+</html>

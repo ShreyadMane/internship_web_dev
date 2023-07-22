@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>ANIMATION PROGRAM</title>
+   <style>
+        div{
+        height:100px;
+        width:100px;
+        border:1px solid;
+        animation-name: demo;
+        background-color: aqua;
+        animation-duration: 2s;
+       /* animation-iteration-count: 4;
+        animation-delay: 2s;
+        animation-direction: reverse;*/
+        animation-fill-mode: forwards;
+        animation-timing-function: steps(8);
+    }
+    @keyframes demo{
+        from{
+            width:100px;
+        }
+        to{
+            width:600px;
+        }
+    }
+   </style>
+</head>
+<body>
+    <H1>ANIMATION PROPERTYES </H1>
+    <P>animation properties ae same as transisation</P>
+    <div></div>
+</body>
+</html>

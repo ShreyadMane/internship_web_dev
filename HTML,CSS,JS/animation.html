@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>Animation color</title>
+   <style>
+        div{
+        height:100px;
+        width:100px;
+        border:1px solid;
+        animation-name: demo;
+        background-color: aqua;
+        animation-duration: 2s;
+       /* animation-iteration-count: 4;
+        animation-delay: 2s;
+        animation-direction: reverse;*/
+        animation-fill-mode: forwards;
+        animation-timing-function:ease;
+        }
+        @keyframes demo{
+            0%{
+                background-color: aqua;
+            }
+            25%{
+                background-color: brown;
+            }
+            50%{
+                background-color: rgb(157, 161, 141);
+            }
+            75%{
+                background-color: rgb(42, 165, 58);
+            }
+            100%{
+                background-color: rgb(165, 42, 144);
+            }
+        }
+   </style>
+</head>
+<body>
+
+    <div>
+
+    </div>
+</body>
+</html>

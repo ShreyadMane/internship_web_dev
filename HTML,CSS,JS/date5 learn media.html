@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>@media program</title>
+    <style>
+        header{
+            background-color: aqua;
+            
+            text-align: center;
+            padding: 20px;
+            font-size: 70px;
+         
+        }
+        ul{
+            border: 1px solid;
+          display: flex;
+        
+         justify-content:space-around;
+          text-decoration: none;
+          background-color: aquamarine;
+        
+         
+        }
+        section{
+            display: flex;
+           
+        }
+        aside{
+            flex-grow: 1;
+            height: 500px;
+        }
+        aside span{
+            display: block;
+            border-bottom: 1px solid;
+            font-size: 22px;
+           
+        }
+        main{
+            flex-grow: 5;
+            display: flex;
+            height: 500px;
+          
+        }
+        main>div{
+            flex-grow: 1;
+           height: 450;
+           display:flex;
+           border: 1px solid;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+          }
+        main>div>div{
+            height: 100px;
+            width:80%;
+            border:1px solid;
+          }
+          @media only screen and(max-width: 1000px)and (min-width:800px){
+              ul{
+                  flex-direction: column;
+              }
+
+          }
+              
+          
+    </style>
+</head>
+<body>
+    <header>JAYRAM ELECTRONICS</header>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Feedback</li>
+        
+    </ul>
+    <section>
+        <aside>
+            <span>Tv</span>
+            <span>Ac</span>
+            <span>Mixer</span>
+            <span>Mobile</span>
+            <span>Other</span>
+        </aside>
+        <main>
+            <div><div></div></div>
+            <div><div></div></div>
+              <div><div></div></div>
+         </main>
+    </section>
+        
+</body>
+</html>

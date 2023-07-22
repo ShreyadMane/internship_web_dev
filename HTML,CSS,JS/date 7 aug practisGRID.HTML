@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title> PRACTIS TASK GRID </title>
+    <style>
+         div{
+             border:1px solid;
+         }
+         section{
+             display: grid;
+             grid-template-columns: auto auto auto;
+             grid-template-rows: 100px 100px 100px;
+
+             grid-template-areas: 'abc abc . .''myself myself xyz xyz ''myself myself s .';
+            /* grid-column-gap:10px;
+             grid-row-gap:10px;*/
+             grid-gap:10px
+         }
+         #abc{
+             grid-area: abc;
+
+         }
+         #myself{
+             grid-area: myself;
+         }
+         #xyz{
+             grid-area: xyz;
+         }
+         #s{
+             grid-area: s;
+         }
+       
+    </style>
+</head>
+<body>
+    <section>
+        <div id="abc">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div id="myself">4</div>
+        <div id="xyz">5</div>
+        <div id="s">6</div>
+        <div>7</div>
+       
+    </section>
+</body>
+</html>

@@ -1,0 +1,314 @@
+#project{
+        
+    background-image: linear-gradient( rgba(0,0,0,0.5 ),#05cde7),url(../image/shg5.jfif);
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+}
+ul{
+    float: right;
+    list-style-type:none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transform: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color:black;
+}
+.logo{
+    width:140px;
+    height: 80px;
+    position: absolute;
+    top: 8%;
+    left:3%;
+}
+.project1{
+    text-align: center;
+    color:white;
+    padding: 50px;
+}
+.project1 h1{
+     font-size: 120px;
+     font-style: oblique;
+}
+.project1 P{
+    font-size:40px;
+    font-style: italic;
+    padding:0%;
+}
+
+
+.project2{
+    margin: 10px auto 0 ;
+   
+}
+.project2 a{
+  width:150px;
+   text-decoration: none;
+   display: inline-block;
+   margin: 0 5px;
+   padding: 10px 0;
+   color:white;
+   border:.5px solid white;
+   position: relative;
+   left:450px;
+   text-align: center;
+   transition: color 0.5s;
+  }
+.project2 a span{
+    width:0px;
+    height:40px;
+    position: absolute;
+    top:0;
+    left:0;
+    background: white;
+     transition: 0.5s;
+    }
+    .project2 a:hover span{
+        width:150px;
+    }
+
+    @media screen and(max-width:770px){
+       .project1.h1{
+           font-size: 30px;
+       } 
+       .project2 a{
+           display: block;
+           margin: 20px auto;
+       }
+    }
+  
+ /*-----------About---------------------*/
+ #about {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     color:#555;
+ }
+ #about btn{
+     margin-top: 20px;
+     margin-bottom: 30px;
+ }
+ .about-content{
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+   /*----------------services---------------------*/
+   #services{
+    background-image: linear-gradient(rgba(0,0,0,0.5 ),#05cde7),url(../image/image\ \,\ our\ services.jfif);
+    background-size: cover;
+    background-position:center ;
+    color:#efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+   }
+  
+   #services h1{
+       text-align: center;
+       color:#efefef !important;
+       padding-bottom: 10px;
+   }
+   #services h1::after{
+   content:'';
+   background:#efefef ;
+   display:block;
+   height:3px;
+   width:170px;
+   margin:20px auto 5px;
+}
+
+ .services {
+ margin-top: 45px;
+}
+#services p{
+    font-size: 17px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.services .col-md-3 :hover{
+    background:darkblue;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+
+/*------------Meet us--------*/
+#meet{
+    padding-top:50px;
+    padding-bottom: 50px;
+    color:rgb(85, 85, 85);
+
+}
+.container2{
+    text-align: center;
+    padding-bottom: 10;
+
+}
+.container2::after{
+    content:'';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#hiiii{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+  
+    border:1px solid;
+    padding-left: 30px;
+    background-color:lightskyblue;
+    }
+.box:hover{
+    background-color: navy;
+}
+/*---------------testomonial----------------*/
+#testimonial #team {
+    width:100%;
+    padding:70px 0;
+
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin:auto;
+    font-size: 20px;
+    color:#009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+
+}
+.title-text p::after{
+    content:'';
+    width:50px;
+    height:35px;
+    background:linear-gradient(#019587,#fff);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    transform:rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    
+}
+.title-text h1{
+    font-size: 50px;
+}
+#tesimonial #team{
+    width:100%;
+    padding:70px 0;
+
+}
+.tesimonial-row {
+   width:80%;
+   margin:auto;
+   display:flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+.tesimonial-col  {
+    flex-basis: 28%;
+    padding:10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+}
+.tesimonial-col {
+    font-size: 15px;
+}
+.user  {
+    display: flex;
+    align-items: center;
+    margin:20px;
+    
+}
+ .user img {
+    width:70px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.user-info small {
+color:rgb(247, 11, 11);
+}
+.tesimonial-col :hover{
+transform:translateY(7px);
+}
+@media screen and (max-width:770px){
+    .tesimonial-col{
+        flex-basis: 100%;
+    }
+}
+/*---------------visit-------------*/
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.5 ),#05cde7),url(../image/promo.jfif);
+    background-size: 280%;
+    background-position: -400px 0px;
+}
+div.main{
+    width:600px;
+    height: 500px;
+    margin:100px auto 0px auto;
+    padding: 30px;
+}
+h2{
+  text-align: center;
+
+
+}
+div.register{
+     font-size: 20px;
+     border-radius: 10px;
+   
+}
+form.register{
+    margin: 40px;
+}
+label{
+   font-size: 18px;
+   font-style: italic;
+}
+input #name{
+    width:300px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color:#fff ;
+    box-shadow: inset 1px 1px 5px rgba(165, 201, 221, 0.3);
+}
+.social-links{
+  position: relative;
+  left:500px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+
+.social-img img{
+    width:70px;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: 1px solid;
+
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="c.js"></script>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+         }
+         
+         
+        section{
+            height: 100%;
+            
+            text-align: center;
+            padding: 20px;
+            color:white;
+            font-weight: bold;
+         }
+           
+        div{
+          
+          margin:30px;
+         
+        }
+        input{
+            padding: 10px;
+            
+        }
+        #file{
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+     <ul>
+         <li>Crime Report</li>
+         <li>user home</li>
+     </ul>
+    
+    
+    <section>
+   <hr>
+    <h2> Complain Register Here</h2>
+    <div>
+      
+    <form id="register" method="post">
+      <label>Complainer Name :</label>
+      <br>
+      <input type="text" name="fname" id="name" placeholder="Enter Your Name">
+      <br></br>
+     
+      
+      <lable>Email :</lable>
+      <br>
+      <input type="email" name="email" id="name" placeholder="Enter Your Valid Email">
+      <br></br>
+
+      <lable>Mobile No</lable>
+      <br>
+      <input type="tel" name="MNUMBER" id="name" placeholder="Enter your valid mo.no">
+      <br></br>
+      <label>Choose Complain Type :</label>
+      <br>
+      
+       <input type="file" id="file" onclick="myfile()">
+       <br>
+       <br></br>
+      
+              
+              <input type= "reset" >
+              <input type="submit">
+            
+    </form>
+    
+    </div>
+    
+ <hr>
+</section>
+</body>
+
+</html>
